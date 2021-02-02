@@ -23,21 +23,21 @@ class Main {
      System.out.println(greeting(name));
 
      int age = getAge(birthYear, currentYear);
-     System.out.println("His age is " + age);
-
-     System.out.println(country(name));
+      System.out.println("His age is " + age);
     }
 
-    //getAge method calculates age
-    static int getAge (int birthYear, int currentYear)
-    {
-      int age = currentYear - birthYear;
-      return age;
-    }
-
-    static String city (String name)
-    {
-      String country = "Where does he live" + name;
-      return area;
+  //getAge method calculates age
+  static int getAge (int birthYear, int currentYear)
+  {
+    int age = currentYear - birthYear;
+    return age;
   }
+  
+  //greeting method returns a personalized greeting
+  static String greeting(String name)
+  {
+    String hello = ("Hello. Welcome to my home" + name);
+    return name;
+  }
+
 }
