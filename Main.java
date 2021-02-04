@@ -22,7 +22,7 @@ class Main {
    System.out.println("His age is " + age);
 
    System.out.println(city(name));
-  }
+  } 
     
   //getAge method calulates age
   static int getAge (int birthYear, int currentYear)
